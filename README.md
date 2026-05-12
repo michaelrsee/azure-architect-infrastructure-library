@@ -12,6 +12,7 @@ Each module in this library represents a reusable, exam-relevant Azure pattern. 
 |---|---|---|
 | [hub-spoke-vnet](hub-spoke-vnet/README.md) | Hub-spoke virtual network topology with bidirectional VNet peering | Design network connectivity solutions |
 | [aks-cluster](aks-cluster/README.md) | AKS cluster with AAD RBAC, OIDC issuer, workload identity, and Container Insights | Design compute solutions using containers |
+| [event-hub](event-hub/README.md) | Event Hubs namespace with multi-hub, per-hub consumer groups, and diagnostic settings | Design a messaging solution |
 
 ## Repository Structure
 
@@ -23,6 +24,11 @@ azure-architect-infrastructure-library/
 │   └── parameters/
 │       └── dev.bicepparam        # Dev environment parameter file
 ├── aks-cluster/
+│   ├── main.bicep
+│   ├── README.md
+│   └── parameters/
+│       └── dev.bicepparam
+├── event-hub/
 │   ├── main.bicep
 │   ├── README.md
 │   └── parameters/
