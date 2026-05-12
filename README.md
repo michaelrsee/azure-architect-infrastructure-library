@@ -6,16 +6,20 @@ A modular Azure Bicep library aligned with the **AZ-305** (Designing Microsoft A
 
 Each module in this library represents a reusable, exam-relevant Azure pattern. Modules are designed to be composable, parameterized for multiple environments, and deployable independently or as part of a larger solution.
 
+## Modules
+
+| Module | Pattern | AZ-305 Domain |
+|---|---|---|
+| [hub-spoke-vnet](hub-spoke-vnet/README.md) | Hub-spoke virtual network topology with bidirectional VNet peering | Design network connectivity solutions |
+
 ## Repository Structure
 
 ```
 azure-architect-infrastructure-library/
-├── <module-name>/
+├── hub-spoke-vnet/
 │   ├── main.bicep                # Module entrypoint
 │   ├── README.md                 # Module documentation and design notes
 │   └── parameters/
-
-
 │       └── dev.bicepparam        # Dev environment parameter file
 ├── tests/
 │   └── unit/                     # Unit tests for individual modules
