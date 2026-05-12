@@ -11,6 +11,7 @@ Each module in this library represents a reusable, exam-relevant Azure pattern. 
 | Module | Pattern | AZ-305 Domain |
 |---|---|---|
 | [hub-spoke-vnet](hub-spoke-vnet/README.md) | Hub-spoke virtual network topology with bidirectional VNet peering | Design network connectivity solutions |
+| [aks-cluster](aks-cluster/README.md) | AKS cluster with AAD RBAC, OIDC issuer, workload identity, and Container Insights | Design compute solutions using containers |
 
 ## Repository Structure
 
@@ -21,6 +22,11 @@ azure-architect-infrastructure-library/
 │   ├── README.md                 # Module documentation and design notes
 │   └── parameters/
 │       └── dev.bicepparam        # Dev environment parameter file
+├── aks-cluster/
+│   ├── main.bicep
+│   ├── README.md
+│   └── parameters/
+│       └── dev.bicepparam
 ├── tests/
 │   └── unit/                     # Unit tests for individual modules
 └── README.md
