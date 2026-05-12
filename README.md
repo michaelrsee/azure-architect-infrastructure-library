@@ -14,6 +14,8 @@ azure-architect-infrastructure-library/
 │   ├── main.bicep                # Module entrypoint
 │   ├── README.md                 # Module documentation and design notes
 │   └── parameters/
+
+
 │       └── dev.bicepparam        # Dev environment parameter file
 ├── tests/
 │   └── unit/                     # Unit tests for individual modules
