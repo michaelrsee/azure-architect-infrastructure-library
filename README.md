@@ -14,6 +14,7 @@ Each module in this library represents a reusable, exam-relevant Azure pattern. 
 | [aks-cluster](aks-cluster/README.md) | AKS cluster with AAD RBAC, OIDC issuer, workload identity, and Container Insights | Design compute solutions using containers |
 | [event-hub](event-hub/README.md) | Event Hubs namespace with multi-hub, per-hub consumer groups, and diagnostic settings | Design a messaging solution |
 | [policy-governance](policy-governance/README.md) | Policy initiative with subscription-scoped assignment, enforcement mode, and remediation identity | Design a governance solution |
+| [key-vault](key-vault/README.md) | Key Vault with RBAC, AKS kubelet access for Secrets Store CSI Driver TLS certificates | Design a solution for storing secrets |
 
 ## Repository Structure
 
@@ -35,6 +36,11 @@ azure-architect-infrastructure-library/
 │   └── parameters/
 │       └── dev.bicepparam
 ├── policy-governance/
+│   ├── main.bicep
+│   ├── README.md
+│   └── parameters/
+│       └── dev.bicepparam
+├── key-vault/
 │   ├── main.bicep
 │   ├── README.md
 │   └── parameters/
