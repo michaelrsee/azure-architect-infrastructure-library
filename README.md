@@ -15,6 +15,7 @@ Each module in this library represents a reusable, exam-relevant Azure pattern. 
 | [event-hub](event-hub/README.md) | Event Hubs namespace with multi-hub, per-hub consumer groups, and diagnostic settings | Design a messaging solution |
 | [policy-governance](policy-governance/README.md) | Policy initiative with subscription-scoped assignment, enforcement mode, and remediation identity | Design a governance solution |
 | [key-vault](key-vault/README.md) | Key Vault with RBAC, AKS kubelet access for Secrets Store CSI Driver TLS certificates | Design a solution for storing secrets |
+| [log-analytics-workspace](log-analytics-workspace/README.md) | Shared Log Analytics workspace with retention, ingestion cap, resource-context access, and OMS solutions | Design a monitoring solution |
 
 ## Repository Structure
 
@@ -41,6 +42,11 @@ azure-architect-infrastructure-library/
 │   └── parameters/
 │       └── dev.bicepparam
 ├── key-vault/
+│   ├── main.bicep
+│   ├── README.md
+│   └── parameters/
+│       └── dev.bicepparam
+├── log-analytics-workspace/
 │   ├── main.bicep
 │   ├── README.md
 │   └── parameters/
